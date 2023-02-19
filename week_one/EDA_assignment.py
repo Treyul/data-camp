@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the csv file
-data = pd.read_csv(r'C:\Users\user\OneDrive\Desktop\projects\data camp\week_one\IT Salary Survey EU  2020.csv')
+df = pd.read_csv(r'C:\Users\user\OneDrive\Desktop\projects\data camp\week_one\IT Salary Survey EU  2020.csv')
 
 df.head()
 list(df.columns)  # list column names
